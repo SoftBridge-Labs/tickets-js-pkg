@@ -6,6 +6,13 @@ Build a customer support experience into any website with a small, framework-agn
 
 This package is intentionally client-side only. It never includes workspace/admin operations, Firebase credentials, or tenant defaults. Each application supplies its own organization ID and public API key.
 
+## Get started with SoftBridge Tickets
+
+- [Read about SoftBridge Tickets](https://office.softbridgelabs.in/products/tickets) to learn how the product works.
+- [Access SoftBridge Tickets](https://office.softbridgelabs.in/tickets) to create or manage your organization and get the `organizationId` and `publicApiKey` used by this SDK.
+- [Create a new SoftBridge Labs account](https://account.softbridgelabs.in/) if you do not have an account yet.
+- Need help? Contact [support@softbridgelabs.in](mailto:support@softbridgelabs.in).
+
 ## Install
 
 ```bash
@@ -116,7 +123,6 @@ Use `answer.shouldEscalate` to decide when to create a human ticket. AI-first re
 | `baseUrl` | No | API base URL, defaulting to the SoftBridge Tickets API |
 | `fetch` | No | Custom fetch implementation for tests or edge runtimes |
 
-## Publish from GitHub Actions
 
 The included [publish workflow](./.github/workflows/publish.yml) runs on every push. It verifies types, tests, and builds before publishing a version that is not already on npm. Repeated pushes with the same package version are safely skipped.
 
