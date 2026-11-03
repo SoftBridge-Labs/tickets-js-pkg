@@ -45,6 +45,6 @@ jobs:
 
       - name: Publish to npm
         if: steps.package.outputs.already-published != 'true'
-        run: npm publish --access public
+        run: npm publish --access public --tag latest
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

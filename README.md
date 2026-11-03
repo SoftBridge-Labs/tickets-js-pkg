@@ -1,5 +1,7 @@
 # @softbridgelabs/tickets
 
+Framework-agnostic browser SDK and embeddable support widget for SoftBridge Tickets.
+
 Build a customer support experience into any website with a small, framework-agnostic client SDK. **Powered by SoftBridge Tickets.**
 
 This package is intentionally client-side only. It never includes workspace/admin operations, Firebase credentials, or tenant defaults. Each application supplies its own organization ID and public API key.

@@ -1,7 +1,15 @@
 {
   "name": "@softbridgelabs/tickets",
   "version": "0.1.0",
-  "description": "Client-side customer support conversations powered by SoftBridge Tickets.",
+  "description": "Framework-agnostic browser SDK and embeddable widget for SoftBridge Tickets customer support.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SoftBridge-Labs/tickets-js-pkg.git"
+  },
+  "homepage": "https://github.com/SoftBridge-Labs/tickets-js-pkg#readme",
+  "bugs": {
+    "url": "https://github.com/SoftBridge-Labs/tickets-js-pkg/issues"
+  },
   "type": "module",
   "sideEffects": false,
   "files": [
