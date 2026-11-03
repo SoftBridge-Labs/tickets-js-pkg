@@ -1,10 +1,10 @@
 {
   "name": "@softbridgelabs/tickets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Framework-agnostic browser SDK and embeddable widget for SoftBridge Tickets customer support.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SoftBridge-Labs/tickets-js-pkg.git"
+    "url": "git+https://github.com/SoftBridge-Labs/tickets-js-pkg.git"
   },
   "homepage": "https://github.com/SoftBridge-Labs/tickets-js-pkg#readme",
   "bugs": {
