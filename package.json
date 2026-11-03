@@ -1,0 +1,43 @@
+{
+  "name": "@softbridge/tickets",
+  "version": "0.1.0",
+  "description": "Client-side customer support conversations powered by SoftBridge Tickets.",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "support",
+    "tickets",
+    "customer-support",
+    "softbridge",
+    "widget"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.5"
+  }
+}
