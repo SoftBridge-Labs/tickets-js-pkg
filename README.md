@@ -1,4 +1,4 @@
-# @softbridge/tickets
+# @softbridgelabs/tickets
 
 Build a customer support experience into any website with a small, framework-agnostic client SDK. **Powered by SoftBridge Tickets.**
 
@@ -7,13 +7,13 @@ This package is intentionally client-side only. It never includes workspace/admi
 ## Install
 
 ```bash
-npm install @softbridge/tickets
+npm install @softbridgelabs/tickets
 ```
 
 ## Use the API client
 
 ```ts
-import { TicketClient } from "@softbridge/tickets";
+import { TicketClient } from "@softbridgelabs/tickets";
 
 const tickets = new TicketClient({
   organizationId: import.meta.env.VITE_TICKETS_ORGANIZATION_ID,
@@ -38,7 +38,7 @@ Only send the public key and non-sensitive browser context to the browser. The c
 ## Add the ready-made widget
 
 ```ts
-import { SupportWidget } from "@softbridge/tickets";
+import { SupportWidget } from "@softbridgelabs/tickets";
 
 new SupportWidget({
   organizationId: "your-organization-id",
@@ -119,7 +119,7 @@ Use `answer.shouldEscalate` to decide when to create a human ticket. AI-first re
 The included [publish workflow](./.github/workflows/publish.yml) runs on every push. It verifies types, tests, and builds before publishing a version that is not already on npm. Repeated pushes with the same package version are safely skipped.
 
 1. Create a granular npm access token from the [npm token settings](https://www.npmjs.com/settings/softbridgelabs/tokens/granular-access-tokens/new).
-2. Give it publish access to `@softbridge/tickets` and enable 2FA/automation according to your npm account settings.
+2. Give it publish access to `@softbridgelabs/tickets` and enable 2FA/automation according to your npm account settings.
 3. Add it to the GitHub repository as an Actions secret named `NPM_TOKEN`.
 4. Bump `version` in `package.json` when you want the next push to publish a release.
 

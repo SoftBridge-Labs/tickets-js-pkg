@@ -1,5 +1,5 @@
 {
-  "name": "@softbridge/tickets",
+  "name": "@softbridgelabs/tickets",
   "version": "0.1.0",
   "description": "Client-side customer support conversations powered by SoftBridge Tickets.",
   "type": "module",
