@@ -2,9 +2,12 @@ name: Publish package
 
 on:
   push:
+    branches:
+      - main
 
 permissions:
   contents: read
+  id-token: write
 
 jobs:
   publish:
