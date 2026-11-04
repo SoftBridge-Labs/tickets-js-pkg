@@ -1,6 +1,6 @@
 {
   "name": "@softbridgelabs/tickets",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Framework-agnostic browser SDK and embeddable widget for SoftBridge Tickets customer support.",
   "repository": {
     "type": "git",
